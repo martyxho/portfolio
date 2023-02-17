@@ -17,6 +17,7 @@ function Project ({ project }) {
           <ProjectLinks siteUrl={project.siteUrl} github={project.github}/>
         </div>
       </div>
+      <span className="darkTrigger"></span>
     </article>
   )
 }

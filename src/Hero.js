@@ -6,8 +6,8 @@ function Hero () {
       <div className="hero-container">
         <div className={`title name`}>MARTY</div>
         <div className="title name">HO</div>
-        <div className="title">WEB</div>
-        <div className="title">DEVELOPER</div>
+        <div className="title"><span className="title-color">WEB</span></div>
+        <div className="title"><span className="title-color">DEV</span>ELOPER</div>
       </div>
     </section>
   )
