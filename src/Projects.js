@@ -26,7 +26,7 @@ function Projects() {
     imgSrc: battleship,
     siteUrl: 'https://martyxho.github.io/battleship/',
     github: 'https://github.com/martyxho/battleship',
-    text: 'A battleship app built with Javascript and Jest for unit tests. Has a computer AI that plays intelligent moves.'
+    text: 'A battleship app built using Javascript and Jest for unit tests. Has a computer AI that plays intelligent moves.'
   }
 
   return (
