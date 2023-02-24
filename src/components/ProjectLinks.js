@@ -1,10 +1,10 @@
-import ProjectLink from "./ProjectLink";
+import Link from "./Link";
 
 function ProjectLinks({siteUrl, github}) {
   return (
     <div className="project_links">
-      <ProjectLink url={siteUrl} text='Live Site' />
-      <ProjectLink url={github} text='Github' />
+      <Link url={siteUrl} text='Live Site' />
+      <Link url={github} text='Github' />
     </div>
   )
 }

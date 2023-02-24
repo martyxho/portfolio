@@ -4,7 +4,7 @@ function scrollTrigger() {
   console.log(bounding);
   if (bounding.y < 1423) {
     document.documentElement.classList = 'dark';
-    if (bounding.y < -1170) {
+    if (bounding.y < -518) {
       window.addEventListener('scroll', scrollTriggerContact);
     } else {
       window.removeEventListener('scroll', scrollTriggerContact);

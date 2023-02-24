@@ -1,14 +1,12 @@
 import ContactForm from "./components/ContactForm";
 import ContactLinks from "./components/ContactLinks";
+import SectionTitle from "./components/SectionTitle";
 
 function Contact() {
   return (
     <section className="contact">
       <div className="contact_wrapper">
-      <h1 className="contact_title">
-        <span>03.</span>
-        <span>Contact</span>
-      </h1>
+      <SectionTitle classname='contact_title' num='03.' title='Contact' />
       <p className="contact_p">
         Currently looking for a good opportunity. Send me a message and I will get back to you!
       </p>
